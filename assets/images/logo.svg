@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#e2e8f0" />
+      <stop offset="70%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+    <linearGradient id="goldVermeil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="regalSapphire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141e33" />
+      <stop offset="50%" stop-color="#0a1128" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring with Filigree Dots -->
+  <circle cx="250" cy="250" r="236" fill="url(#regalSapphire)" stroke="url(#silverGrad)" stroke-width="4.5" />
+  <circle cx="250" cy="250" r="222" fill="none" stroke="rgba(226, 232, 240, 0.4)" stroke-width="1.5" stroke-dasharray="5,4" />
+
+  <!-- Sacred Lotus & Silver Crown Motif -->
+  <path d="M 250 120 C 235 155 220 185 250 215 C 280 185 265 155 250 120 Z" fill="url(#silverGrad)" />
+  <path d="M 250 215 C 220 190 195 180 190 205 C 190 225 225 225 250 215 Z" fill="url(#silverGrad)" opacity="0.85" />
+  <path d="M 250 215 C 280 190 305 180 310 205 C 310 225 275 225 250 215 Z" fill="url(#silverGrad)" opacity="0.85" />
+  
+  <!-- Vermeil Hallmark Diamond -->
+  <polygon points="250,155 258,167 250,179 242,167" fill="url(#goldVermeil)" />
+  <circle cx="250" cy="215" r="4.5" fill="url(#goldVermeil)" />
+
+  <!-- Horizontal Heritage Filigree Line -->
+  <line x1="100" y1="262" x2="400" y2="262" stroke="url(#silverGrad)" stroke-width="1.5" opacity="0.8" />
+  <circle cx="250" cy="262" r="4.5" fill="url(#goldVermeil)" />
+  <polygon points="100,262 108,258 108,266" fill="url(#silverGrad)" />
+  <polygon points="400,262 392,258 392,266" fill="url(#silverGrad)" />
+
+  <!-- Typography -->
+  <text x="250" y="316" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="4">SHREE GANGA</text>
+  <text x="250" y="352" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="600" fill="url(#goldVermeil)" letter-spacing="6">JEWELLERS</text>
+  <text x="250" y="388" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="5">925 STERLING SILVER &#8226; KOLKATA</text>
+</svg>
